@@ -1,0 +1,6 @@
+date,product,region,units_sold,unit_price,total_revenue
+2025-01-01,Bike,North,12,250,3000
+2025-01-02,Bike,South,9,250,2250
+2025-01-03,Bike,East,15,250,3750
+2025-01-04,Helmet,North,30,40,1200
+2025-01-05,Helmet,South,25,40,1000
