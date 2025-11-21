@@ -1,0 +1,13 @@
+requirements = """
+pandas
+numpy
+matplotlib
+seaborn
+python-dateutil
+reportlab
+"""
+
+with open("requirements.txt", "w") as f:
+    f.write(requirements)
+
+print("✔ requirements.txt created")
