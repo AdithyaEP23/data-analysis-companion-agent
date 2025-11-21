@@ -76,32 +76,39 @@ This hybrid approach combines **agent reasoning**, **direct Python tool executio
 data-analysis-companion-agent/
 │
 ├── README.md
-├── requirements.txt
+├── LICENSE
 ├── flow_adk_web.png
-├── dac_agent_submission.zip
+├── requirements.txt
+├── .gitignore
 │
 ├── src/
 │   ├── agents.py
 │   ├── analyst_agent.py
-│   ├── final_pipeline.py
 │   ├── insight_engine.py
+│   ├── final_pipeline.py
 │   ├── evaluator.py
+│   ├── tools.py
+│   ├── utils.py
 │   ├── memory.py
 │   ├── llm_wrapper.py
-│   ├── tools.py
-│   └── utils.py
+│   └── __init__.py
 │
 ├── data/
-│   ├── memory.json
-│   └── sample_datasets/
-│       ├── sales.csv
-│       └── churn.csv
+│   ├── sample_datasets/
+│   │     ├── sales.csv
+│   │     └── churn.csv
+│   └── memory.json
+│
 ├── outputs/
 │   ├── Report_with_charts.pdf
 │   ├── Report_10page.pdf
 │   └── examples/
-│   
+│         ├── hist_total_revenue.png
+│         ├── box_total_revenue.png
+│         ├── etc...
+│
 ├── dac_agent_submission.zip
+│
 ├── thumbnail1.png
 └── thumbnail2.png
 
