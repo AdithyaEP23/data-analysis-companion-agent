@@ -96,11 +96,15 @@ data-analysis-companion-agent/
 │   └── sample_datasets/
 │       ├── sales.csv
 │       └── churn.csv
-│
-└── outputs/
-    ├── Report_with_charts.pdf
-    ├── Report_10page.pdf
-    └── examples/
+├── outputs/
+│   ├── Report_with_charts.pdf
+│   ├── Report_10page.pdf
+│   └── examples/
+│   
+├── dac_agent_submission.zip
+├── thumbnail1.png
+└── thumbnail2.png
+
 ```
 
 ---
